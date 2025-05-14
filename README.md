@@ -38,31 +38,34 @@ A simple and interactive Rock Paper Scissors game built using **HTML**, **CSS**,
 ---
 
 ## 📂 Project Structure
-rock-paper-scissors/
-│
-├── index.html # Game layout
-├── style.css # Styling and themes
-├── script.js # Game logic
-├── instructions.html # Instruction Manual
-└── README.md # Project information
-
+-rock-paper-scissors/
+-│
+-├── index.html # Game layout
+-├── style.css # Styling and themes
+-├── script.js # Game logic
+-├── instructions.html # Instruction Manual
+-└── README.md # Project information
 
 ---
 
 ## ⚙️ How to Run
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Avanti-Chinchone2003/RPS-Showdown.git
+-1. **Clone the repository**:
+   -```bash
+   -git clone https://github.com/Avanti-Chinchone2003/RPS-Showdown.git
 
-2. Open index.html in your browser.
+-2. Open index.html in your browser.
 
 💡 No installations or dependencies required!
 
-💡 Future Improvements (Optional)
-Add sound effects
+---
 
-Add animations
+## 💡 Future Improvements 
+-Add sound effects
 
-📝 Author
-Avanti Chinchone
+-Add animations
+
+---
+
+## 📝 Author
+- [Avanti Chinchone](https://github.com/Avanti-Chinchone2003)
