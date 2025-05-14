@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How to Play - Rock Paper Scissors</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fceabb, #f8b500);
+      color: #333;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #f57c00;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      font-size: 1.4rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+
+    .rules-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .rule-card {
+      background: #fce4ec;
+      border-left: 5px solid #ec407a;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .rule-card.win {
+      background: #e8f5e9;
+      border-color: #66bb6a;
+    }
+
+    .rule-card.lose {
+      background: #ffebee;
+      border-color: #ef5350;
+    }
+
+    .back-button {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 25px;
+      background-color: #f57c00;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s;
+      width: max-content;
+    }
+
+    .back-button:hover {
+      background-color: #e65100;
+    }
+
+    @media (max-width: 600px) {
+      .rules-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>How to Play Rock Paper Scissors</h1>
+
+    <div class="section">
+      <h2>🎮 Game Objective</h2>
+      <p>Your goal is to choose Rock, Paper, or Scissors to beat your opponent based on the rules below.</p>
+    </div>
+
+    <div class="section">
+      <h2>📜 Basic Rules</h2>
+      <ul>
+        <li>Rock crushes Scissors</li>
+        <li>Scissors cuts Paper</li>
+        <li>Paper covers Rock</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🏆 How You Win</h2>
+      <div class="rules-grid">
+        <div class="rule-card win">You pick <strong>Rock</strong> & Opponent picks <strong>Scissors</strong> → ✅ You Win!</div>
+        <div class="rule-card win">You pick <strong>Scissors</strong> & Opponent picks <strong>Paper</strong> → ✅ You Win!</div>
+        <div class="rule-card win">You pick <strong>Paper</strong> & Opponent picks <strong>Rock</strong> → ✅ You Win!</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💀 When You Lose</h2>
+      <div class="rules-grid">
+        <div class="rule-card lose">You pick <strong>Rock</strong> & Opponent picks <strong>Paper</strong> → ❌ You Lose!</div>
+        <div class="rule-card lose">You pick <strong>Scissors</strong> & Opponent picks <strong>Rock</strong> → ❌ You Lose!</div>
+        <div class="rule-card lose">You pick <strong>Paper</strong> & Opponent picks <strong>Scissors</strong> → ❌ You Lose!</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>😐 What If It's a Tie?</h2>
+      <p>If both players choose the same item, it's a draw! Try again to determine the winner.</p>
+    </div>
+
+    <a href="index.html" class="back-button">← Back to Game</a>
+  </div>
+
+</body>
+</html>

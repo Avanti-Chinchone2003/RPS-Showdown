@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head_container">
+        <img src="./images/game_icon.jpg" id="game_logo">
+        <div class="heading">
+        <h1>Rock  Paper  Scissors </h1>
+        </div>
+        <div class="icon_panel">
+            <div id="moon"><i class="icon fa-regular fa-moon"></i></div>
+            <div id="info"><i class="icon fa-solid fa-circle-info"></i></div>
+        </div>
+    </div>
+<!-- Select The Choice -->
+   <div class="choices">
+    <div class="choice" id="Rock">
+        <img src="./images/rock.png">
+    </div>
+    <div class="choice" id="Paper">
+        <img src="./images/paper.png">
+    </div>
+    <div class="choice" id="Scissors">
+        <img src="./images/scissor.png">
+    </div>
+   </div>
+   <!--Score Board-->
+   <div class="score-board">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>YOU</p>
+    </div>
+    <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+    </div>
+   </div>
+   <!--Messages-->
+   <div class="msg-container">
+    <p id="message">PLAY YOUR MOVE !</p>
+   </div>
+    <script src="https://kit.fontawesome.com/c068a1b8fd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
